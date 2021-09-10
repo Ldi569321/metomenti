@@ -1,3 +1,13 @@
-h1 {
-    border: 2px solid black;
+.logo {
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 200px;
+    width: 400px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+
+.logo img {
+    height: 200px;
+    width: auto;
 }
