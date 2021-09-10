@@ -9,28 +9,38 @@
 </head>
 <body>
        <header class="logo">    
-        <a href="home.html"><img src="./logo.png" alt="logo"></a>
-       </header>
-       <div id="slide">
-        <input type="radio" name="pos" id="pos1" checked>
-        <input type="radio" name="pos" id="pos2">
-        <input type="radio" name="pos" id="pos3">
-        <input type="radio" name="pos" id="pos4">
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
+        <a href="home.html"><img src="./img/logo.png" alt="logo"></a>
+    </header>
+
+       <article class="slidebox">
+        <input type="radio" name="slide" id="slide01" checked>
+        <input type="radio" name="slide" id="slide02">
+        <input type="radio" name="slide" id="slide03">
+        <ul class="slidelist">
+            <li class="slideitem">
+                <a><img src="./img/001.jpg"></a>
+            </li>
+            <li class="slideitem">
+                <a><img src="./img/002.jpg"></a>
+            </li>
+            <li class="slideitem">
+                <a><img src="./img/003.jpg"></a>
+            </li>
         </ul>
-        <p class="pos">
-          <label for="pos1"></label>
-          <label for="pos2"></label>
-          <label for="pos3"></label>
-          <label for="pos4"></label>
-        </p>
-        <p id="right">
-          <label for="pos@"></label>
-        </p>
-      </div>
+        <section class="slide-control">
+            <div class="control01">
+                <label for="slide03" class="prev"></label>  
+                <label for="slide02" class="next"></label>
+            </div>
+            <div class="control02">
+                <label for="slide01" class="prev"></label>
+                <label for="slide03" class="next"></label>
+            </div>
+            <div class="control03">
+                <label for="slide02" class="prev"></label>
+                <label for="slide01" class="next"></label>
+            </div>
+        </section>
+       </article>
 </body>
 </html>
