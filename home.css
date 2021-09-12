@@ -120,7 +120,6 @@ ul, li {list-style:none;}
 
 table {
     display:inline-block;
-    margin: auto;
     border-collapse: collapse;
     text-align: center;
     margin-top: 20px;
@@ -142,7 +141,7 @@ th img {
     width: 300px;
     height: 450px;
     border: 2px solid black;
-    top: 50px;
+    margin-left: 250px;
 }
 
 #lately_game {
@@ -151,5 +150,5 @@ th img {
     width: 300px;
     height: 454px;
     border: 2px solid black;
-    top: 50px;
+    margin-right: 250px;
 }
