@@ -13,7 +13,7 @@
     </header>
     <main class="main">
         <article class="main_box">
-            <div class="box_result"><img id="result" src="./img/odd, even/001.png" alt="result"></div>
+            <div class="box_result"><video autoplay muted="muted" id="result" src="./img/odd, even/odd,even.mp4" alt="result"></div>
             
             <div class="box_button">
                 <button id="startBtn" onclick="start()" type="button" value="odd_even" id="button1">
@@ -27,12 +27,12 @@
                     
                     if (random == 0) {
                         const random =
-                         document.getElementById('content');
-                         document.getElementById("result").src = "./img/odd, even/002.png";
+                         document.getElementById('content');    
+                         document.getElementById("result").src = "./img/odd, even/odd.mp4";
                     } else {
                         const random =
                          document.getElementById('content');
-                         document.getElementById("result").src = "./img/odd, even/003.png";
+                         document.getElementById("result").src = "./img/odd, even/even.mp4";
                     }
                 }
             </script>

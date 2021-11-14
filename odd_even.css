@@ -17,15 +17,16 @@ ul, li {list-style:none;}
 
 
 #result {
-    width: 300px;
+    width: 500px;
     height: auto;
     text-align: center;
+    margin-top: 100px;
 }
 
 .main_box{
     width: 700px;   
     height: 700px;
-    background-color: rgb(226, 246, 202);
+    background-color: rgb(226, 241, 200);
     border: 1px solid black;
     border-radius: 15px;
     position: absolute;
@@ -40,11 +41,11 @@ ul, li {list-style:none;}
 }
 
 .box_button{
-    flex: 0.5;
+    flex: 0.7;
 }
 
 .box_result {
-    flex: 0.5;
+    flex: 0.3;
     text-align: center;
 }
 
@@ -56,10 +57,10 @@ ul, li {list-style:none;}
 #startBtn {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 70%;
     border: 0;
     background-color: transparent;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     height: 60px;
     width: 200px;
     text-align: center;
@@ -71,10 +72,10 @@ ul, li {list-style:none;}
 #startBtn:hover {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 70%;
     border: 0;
     background-color: transparent;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
     height: 75px;
     width: 250px;   
     text-align: center;
