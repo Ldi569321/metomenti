@@ -13,16 +13,30 @@
     </header>
     <main class="main">
         <article class="main_box">
-            <button id="startBtn" onclick="start()" type="button" value="odd_even" id="button1">
-                    START
+            <div class="box_result"><img id="result" src="./img/odd, even/001.png" alt="result"></div>
+            
+            <div class="box_button">
+                <button id="startBtn" onclick="start()" type="button" value="odd_even" id="button1">
+                   <img id="startBtn" src="./img/odd, even/start.png" alt="startBtnImg">
             </button>
+        </div>
+
             <script>
                 function start() {
                     var random = Math.floor(Math.random()*2);
-                    onclick = console.log(random);
+                    
+                    if (random == 0) {
+                        const random =
+                         document.getElementById('content');
+                         document.getElementById("result").src = "./img/odd, even/002.png";
+                    } else {
+                        const random =
+                         document.getElementById('content');
+                         document.getElementById("result").src = "./img/odd, even/003.png";
+                    }
                 }
-            
             </script>
+
     </article>
     </main>
 
