@@ -77,7 +77,7 @@ ul, li {list-style:none;}
 .slidebox .slide-control [class*="control"] label.next:hover {
     right:-50px;
     -webkit-transition: 0.2s all ease;
-    background:rgb(71, 67, 67) url('./img/right-arrow.png') center center / 50% no-repeat;
+    background:rgb(31, 113, 237) url('./img/right-arrow.png') center center / 50% no-repeat;
 }
 
 
@@ -125,7 +125,8 @@ table {
     margin-bottom: 20px;
 }
 th {
-    border: 2px solid black;
+    border: 3px solid rgb(31, 113, 237);
+    padding: 5px 20px 0px 20px;
     width: 240px;
     height: 120px;
 }
@@ -138,7 +139,7 @@ th img {
 #best_game {
     float: left;
     margin-top: 15px;
-    margin-left: 200px;
+    margin-left: 120px;
     width: 240px;
     height: 360px;  
 }
@@ -146,7 +147,7 @@ th img {
 #lately_game {
     float: right;
     margin-top: 15px;
-    margin-right: 200px;
+    margin-right: 120px;
     width: 240px;
     height: 360px;
 }
@@ -156,8 +157,9 @@ th img {
     height: 360px;
 }
 
-footer {
-    margin-top: 50px;
-    text-align: center;
-    height: 100px;
+footer img{
+    margin-top: 20px;
+    height: 400px;
+    display: block; 
+    margin: 0px auto;
 }
