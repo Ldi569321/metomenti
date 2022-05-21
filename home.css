@@ -2,7 +2,7 @@
     border-radius: 15px;
     height: 200px;
     width: 400px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 10px;
 }
 
@@ -11,105 +11,119 @@
     width: auto;
 }
 
-* {margin:0;padding:0;box-sizing:border-box;}
-ul, li {list-style:none;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
 
 
 .slidebox {
-    max-width:1125px;margin:0 auto;position:relative; text-align: center;}
+    max-width: 1125px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 
 .slidebox .slidelist {
-    position:relative;
-    white-space:nowrap;
-    font-size:0;overflow:hidden;
+    position: relative;
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
 }
 
 .slidebox .slidelist .slideitem {
-    position:relative;
-    display:inline-block;
-    vertical-align:middle;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
     background-color: white;
-    width:1125px;
-    transition:all 0.5s;
+    width: 1125px;
+    transition: all 0.5s;
     margin: 10px 0px 10px 0px;
 }
 
 
-.slidebox .slidelist .slideitem > a {
-    display:block;
-    width:auto;
-    position:relative;
+.slidebox .slidelist .slideitem>a {
+    display: block;
+    width: auto;
+    position: relative;
 }
 
-.slidebox .slidelist .slideitem > a img {
-    max-width:100%;
+.slidebox .slidelist .slideitem>a img {
+    max-width: 100%;
 }
 
 .slidebox .slide-control [class*="control"] label {
-    position:absolute;
-    z-index:10;
-    top:50%;
-    transform:translateY(-50%);
-    padding:20px;
-    border-radius:50%;
-    cursor:pointer;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 .slidebox .slide-control [class*="control"] label.prev {
-    left:-50px;
+    left: -50px;
     transition: 0.2s all ease;
-    background:#333 url('./img/left-arrow.png') center center / 50% no-repeat;
+    background: #333 url('./img/left-arrow.png') center center / 50% no-repeat;
 }
 
 .slidebox .slide-control [class*="control"] label.prev:hover {
-    left:-50px;
+    left: -50px;
     -webkit-transition: 0.2s all ease;
-    background:rgb(71, 67, 67) url('./img/left-arrow.png') center center / 50% no-repeat;
+    background: rgb(71, 67, 67) url('./img/left-arrow.png') center center / 50% no-repeat;
 }
 
 .slidebox .slide-control [class*="control"] label.next {
-    right:-50px;
+    right: -50px;
     transition: 0.2s all ease;
-    background:#333 url('./img/right-arrow.png') center center / 50% no-repeat;
+    background: #333 url('./img/right-arrow.png') center center / 50% no-repeat;
 }
 
 .slidebox .slide-control [class*="control"] label.next:hover {
-    right:-50px;
+    right: -50px;
     -webkit-transition: 0.2s all ease;
-    background:rgb(31, 113, 237) url('./img/right-arrow.png') center center / 50% no-repeat;
+    background: rgb(31, 113, 237) url('./img/right-arrow.png') center center / 50% no-repeat;
 }
 
 
 [name="slide"] {
-    display:none;
-}
-#slide01:checked ~ .slidelist .slideitem {
-    left:0;
+    display: none;
 }
 
-#slide02:checked ~ .slidelist .slideitem {
-    left:-100%;
+#slide01:checked~.slidelist .slideitem {
+    left: 0;
 }
 
-#slide03:checked ~ .slidelist .slideitem {
-    left:-200%;
+#slide02:checked~.slidelist .slideitem {
+    left: -100%;
+}
+
+#slide03:checked~.slidelist .slideitem {
+    left: -200%;
 }
 
 .slide-control [class*="control"] {
-    display:none;
+    display: none;
 
 }
 
-#slide01:checked ~ .slide-control .control01 {
-    display:block;
+#slide01:checked~.slide-control .control01 {
+    display: block;
 }
 
-#slide02:checked ~ .slide-control .control02 {
-    display:block;
+#slide02:checked~.slide-control .control02 {
+    display: block;
 }
 
-#slide03:checked ~ .slide-control .control03 {
-    display:block;
+#slide03:checked~.slide-control .control03 {
+    display: block;
 }
 
 #main_box {
@@ -123,6 +137,7 @@ table {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 th {
     border: 3px solid rgb(31, 113, 237);
     padding: 5px 20px 0px 20px;
@@ -140,7 +155,7 @@ th img {
     margin-top: 15px;
     margin-left: 120px;
     width: 240px;
-    height: 360px;  
+    height: 360px;
 }
 
 #lately_game {
@@ -151,14 +166,15 @@ th img {
     height: 360px;
 }
 
-#lately_game img, #best_game img{
+#lately_game img,
+#best_game img {
     width: 240px;
     height: 360px;
 }
 
-footer img{
+footer img {
     margin-top: 20px;
     height: 400px;
-    display: block; 
+    display: block;
     margin: 0px auto;
 }
